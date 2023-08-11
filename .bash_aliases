@@ -1,1 +1,6 @@
 alias s="git status"
+alias d="git diff"
+alias a="git add"
+alias gcm="git commit -m"
+alias glo="git log --oneline"
+alias ra = "!f() { git rebase -i HEAD~$(git rev-list --count HEAD ^main); }; f"
